@@ -296,6 +296,38 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\gsdk.css" />
+    <Content Include="assets\img\apple-icon.png" />
+    <Content Include="assets\img\bg.jpg" />
+    <Content Include="assets\img\blurred-black-cover.jpeg" />
+    <Content Include="assets\img\carousel_blue.png" />
+    <Content Include="assets\img\carousel_green.png" />
+    <Content Include="assets\img\carousel_orange.png" />
+    <Content Include="assets\img\carousel_red.png" />
+    <Content Include="assets\img\cover_4.jpg" />
+    <Content Include="assets\img\cover_4_blur.jpg" />
+    <Content Include="assets\img\dulau.jpg" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\mask.png" />
+    <Content Include="assets\img\mockup.png" />
+    <Content Include="assets\img\new_logo.png" />
+    <Content Include="assets\img\tim_80x80.png" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\get-shit-done.js" />
+    <Content Include="assets\js\gsdk-bootstrapswitch.js" />
+    <Content Include="assets\js\gsdk-checkbox.js" />
+    <Content Include="assets\js\gsdk-radio.js" />
+    <Content Include="assets\js\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap3\css\bootstrap.css" />
+    <Content Include="bootstrap3\css\bootstrap.min.css" />
+    <Content Include="bootstrap3\css\font-awesome.css" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.svg" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap3\js\bootstrap.js" />
+    <Content Include="bootstrap3\js\bootstrap.min.js" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
     <Content Include="config\Lang\da-DK.user.xml" />
@@ -317,6 +349,15 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
+    <Content Include="images\pin24.png" />
+    <Content Include="images\pin48.png" />
+    <Content Include="index.html" />
+    <Content Include="jquery\jquery-1.10.2.js" />
+    <Content Include="jquery\jquery-ui.custom.min.js" />
+    <Content Include="map\leaf-map.js" />
+    <Content Include="map\markers.js" />
+    <Content Include="map\RealWorld.10000.js" />
+    <Content Include="Views\components.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -360,6 +401,39 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
+    <Content Include="assets\sass\gsdk.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_buttons.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_inputs.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_labels.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_navbars.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_tabs.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_transparency.scss" />
+    <Content Include="assets\sass\gsdk\mixins\_vendor-prefixes.scss" />
+    <Content Include="assets\sass\gsdk\_alerts.scss" />
+    <Content Include="assets\sass\gsdk\_buttons.scss" />
+    <Content Include="assets\sass\gsdk\_carousel.scss" />
+    <Content Include="assets\sass\gsdk\_checkbox-radio-switch.scss" />
+    <Content Include="assets\sass\gsdk\_collapse.scss" />
+    <Content Include="assets\sass\gsdk\_dropdown.scss" />
+    <Content Include="assets\sass\gsdk\_inputs.scss" />
+    <Content Include="assets\sass\gsdk\_labels-and-progress-bars.scss" />
+    <Content Include="assets\sass\gsdk\_misc.scss" />
+    <Content Include="assets\sass\gsdk\_mixins.scss" />
+    <Content Include="assets\sass\gsdk\_modal.scss" />
+    <Content Include="assets\sass\gsdk\_navbars.scss" />
+    <Content Include="assets\sass\gsdk\_responsive.scss" />
+    <Content Include="assets\sass\gsdk\_sliders.scss" />
+    <Content Include="assets\sass\gsdk\_tabs-navs-pagination.scss" />
+    <Content Include="assets\sass\gsdk\_tooltips.scss" />
+    <Content Include="assets\sass\gsdk\_typography.scss" />
+    <Content Include="assets\sass\gsdk\_variables.scss" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.eot" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.woff" />
+    <Content Include="bootstrap3\fonts\FontAwesome.otf" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.woff" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -380,6 +454,8 @@
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,6 +463,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
