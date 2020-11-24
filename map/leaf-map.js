@@ -64,6 +64,7 @@ function initMap() {
                                     break;
                                 }
                             }
+
                             if (marker && marker.setMap) {
                                 marker.setMap(null);
                             }
@@ -84,6 +85,10 @@ function initMap() {
         });
 }
 
+
+function wikiCountryName() {
+
+}
 //function geocodeLatLng(geocoder, map, infowindow) {
 //    const input = document.getElementById("content").value;
 //    const latlngStr = myLatlng.split(",", 2);
