@@ -296,6 +296,14 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Models\BaseContentControl.generated.cs" />
+    <Content Include="App_Data\Models\File.generated.cs" />
+    <Content Include="App_Data\Models\Folder.generated.cs" />
+    <Content Include="App_Data\Models\Home.generated.cs" />
+    <Content Include="App_Data\Models\Image.generated.cs" />
+    <Content Include="App_Data\Models\Member.generated.cs" />
+    <Content Include="App_Data\TEMP\ClientDependency\DESKTOP-5UMFR19-47554628eeb68d5961235c399db7b077-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
     <Content Include="assets\css\demo.css" />
     <Content Include="assets\css\gsdk.css" />
     <Content Include="assets\img\apple-icon.png" />
@@ -434,6 +442,56 @@
     <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_001.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_002.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_003.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_004.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_005.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_006.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_007.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_008.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_009.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_010.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_011.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_012.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_013.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_014.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_015.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_016.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_017.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_018.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DESKTOP-5UMFR19.20201124_019.json" />
+    <Content Include="App_Data\Models\all.dll.path" />
+    <Content Include="App_Data\Models\models.hash" />
+    <Content Include="App_Data\packages\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_052973b322984571b296dbf1db95c0c3.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_bc6c6606fe0b4ef192cc45c6633aa689.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_cb887eec31b5438384e9791d5f3f8496.cdJ" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments_5" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_1.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_1_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_3.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments_5" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_0.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_0_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_1.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_1_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_3.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments_1" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Content.db" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Media.db" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.DESKTOP-5UMFR19.hash" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.DESKTOP-5UMFR19.list" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -456,6 +514,8 @@
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\Capital.cshtml" />
+    <Content Include="Views\Country.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -463,7 +523,10 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\TEMP\FileUploads\" />
+    <Folder Include="App_Data\TEMP\Install\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
