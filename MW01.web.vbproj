@@ -356,6 +356,7 @@
     <Content Include="config\Lang\sv-SE.user.xml" />
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
+    <Content Include="forecast\forecast.js" />
     <Content Include="Global.asax" />
     <Content Include="images\pin24.png" />
     <Content Include="images\pin48.png" />
@@ -365,7 +366,9 @@
     <Content Include="map\leaf-map.js" />
     <Content Include="map\markers.js" />
     <Content Include="map\RealWorld.10000.js" />
-    <Content Include="Views\components.html" />
+    <Content Include="style\common.css" />
+    <Content Include="style\weatherStyle.css" />
+    <Content Include="Views\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -516,6 +519,7 @@
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\Capital.cshtml" />
     <Content Include="Views\Country.cshtml" />
+    <Content Include="Views\Partials\Grid\Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

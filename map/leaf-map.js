@@ -96,8 +96,14 @@ function initMap() {
                                     return this.value;
                                 },
                                 set description(value) {
+                                    values = "<div class='card'>" +
+                                        "<div class='card-content'>" +
+                                        value +
+                                        "</div> </div>";
                                     value = truncateString(value, 700);
-                                    value = value.concat("<a target='_blank' href=" + WikiUrl + ">Read more</a>");
+                                    var weatherSingle = localStorage.getItem("weatherStorage");
+                                    var value2 = value.replace(/^/, weatherSingle);
+                                    value = value2.concat("<a target='_blank' href=" + WikiUrl + ">Read more</a>");
                                     this.value = value;
                                     this.letMeKnow();
                                 }
@@ -128,6 +134,14 @@ function initMap() {
                             });
                             infowindow.open(map, marker);
                             console.log("City: " + city + ", City2: " + cityAlt + ", Country: " + country + ", Country Code: " + countryCode);
+                            if (city != null) {
+                                localStorage.setItem("cityStorage", city);
+                            } else {
+                                localStorage.setItem("cityStorage", cityAlt);
+                            }
+                            localStorage.setItem("countryStorage", countryCode);
+                            console.log(city);
+                            getWeather();
                         }
                     };
                 });
