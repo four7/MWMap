@@ -36,14 +36,8 @@
                         </div>
                     `);
 
-                //if (html) {
-                //    var element = document.getElementById('forecast');
-                //    element.remove();
-                //}
-                //var newItem = html;
                 target.insertAdjacentHTML('afterbegin', html);
                 localStorage.setItem("weatherStorage", html);
-                //target.parentNode.replaceChild(newItem, target);
             });
         }
     });

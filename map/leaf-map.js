@@ -97,10 +97,6 @@ function initMap() {
                                     return this.value;
                                 },
                                 set description(value) {
-                                    //value = "<div class='card'>" +
-                                    //    "<div class='card-content'>" +
-                                    //    value +
-                                    //    "</div> </div>";
 
                                     localStorage.setItem("wikiContent", value);
                                     console.log(value);
