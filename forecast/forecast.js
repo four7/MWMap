@@ -27,7 +27,7 @@
                 const html = (`
                         <div class="card">
                             <div class="card-content">
-                                <p><b>${city}</b></p>
+                                <p><a href="/country-page/"><b>${city}</b></a></p>
                                 <p class="title">${aeris.utils.dates.format(date, 'h:mm, M/d/yyyy')}</p>
                                 <p><img class="icon" src="${icon}"></p>
                                 <p class="wx">${weather}</p>
@@ -48,3 +48,4 @@
         }
     });
 }
+$(document).ready(getWeather);

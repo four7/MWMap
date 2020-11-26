@@ -1,4 +1,22 @@
-﻿.site-footer {
+﻿.countryBg {
+    background-color: #f2f3f8 !important;
+}
+
+.paddington {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.paddTop {
+    margin-top: 10px;
+}
+
+.flags {
+    float: right;
+    margin-top: 15px;
+}
+
+.site-footer {
     background-color: #26272b;
     padding: 45px 0 20px;
     font-size: 15px;

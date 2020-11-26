@@ -83,6 +83,7 @@ function initMap() {
                                 .then(data => {
                                     console.log(data.parse.pageid);
                                     pageId = data.parse.pageid;
+                                    
                                 })
                                 .catch(error => console.error(error));
 
@@ -96,15 +97,21 @@ function initMap() {
                                     return this.value;
                                 },
                                 set description(value) {
-                                    values = "<div class='card'>" +
-                                        "<div class='card-content'>" +
-                                        value +
-                                        "</div> </div>";
+                                    //value = "<div class='card'>" +
+                                    //    "<div class='card-content'>" +
+                                    //    value +
+                                    //    "</div> </div>";
+
+                                    localStorage.setItem("wikiContent", value);
+                                    console.log(value);
+
                                     value = truncateString(value, 700);
                                     var weatherSingle = localStorage.getItem("weatherStorage");
                                     var value2 = value.replace(/^/, weatherSingle);
                                     value = value2.concat("<a target='_blank' href=" + WikiUrl + ">Read more</a>");
                                     this.value = value;
+                                    
+                                    console.log(value);
                                     this.letMeKnow();
                                 }
                             }
@@ -119,6 +126,8 @@ function initMap() {
                                 })
                                 .then(data => {
                                     obj.description = data.query.pages[pageId].extract;
+                                    localStorage.setItem("idStorage", pageId);
+                                    console.log(pageId);
                                 })
                                 .catch(error => console.error(error));
 
@@ -134,13 +143,21 @@ function initMap() {
                             });
                             infowindow.open(map, marker);
                             console.log("City: " + city + ", City2: " + cityAlt + ", Country: " + country + ", Country Code: " + countryCode);
+
+                            window.localStorage.clear();
+
                             if (city != null) {
                                 localStorage.setItem("cityStorage", city);
                             } else {
                                 localStorage.setItem("cityStorage", cityAlt);
                             }
                             localStorage.setItem("countryStorage", countryCode);
+                            localStorage.setItem("wikiCountry", country);
+                            
+
+                            console.log(pageId);
                             console.log(city);
+                            console.log(cityAlt);
                             getWeather();
                         }
                     };
