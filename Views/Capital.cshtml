@@ -1,7 +1,14 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
 @{
-	Layout = "Master.cshtml";
+    Layout = "Master.cshtml";
 }
 
-@* the fun starts here *@
-
+<div id="capitalForecasts" style="position: relative; right: 120px;">
+    <br />
+</div>
+<div>
+    <a class="btn btn-small btn-info center" onCLick="window.history.back()" >Back</a>
+</div>
+<br />
+<div id="capitalDiv"></div>
+<div id="capitalContentInfo"></div>

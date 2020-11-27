@@ -44,7 +44,7 @@ $(document).ready(function () {
                                     <img src='${testFlag}' alt="Country Flag" />
                                 </div>
                                 <div id='capitalWeather'>${capitalW}</div>
-                                <br/>
+                                <a href="/capital-page/" class="btn btn-small btn-info"><i class="icon-info-sign"></i>Click here for capital city info</a>
                                 <p>${wikiContent}</p>
                             </div>
                         </div>
@@ -118,6 +118,7 @@ function getCapitalWeather() {
 
                 localStorage.setItem("weatherCapital", html2);
                 weatherTest = html2;
+                capitalCity();
             });
         }
     });

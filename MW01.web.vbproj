@@ -363,6 +363,7 @@
     <Content Include="index.html" />
     <Content Include="jquery\jquery-1.10.2.js" />
     <Content Include="jquery\jquery-ui.custom.min.js" />
+    <Content Include="map\CapitalPage.js" />
     <Content Include="map\CountryPage.js" />
     <Content Include="map\leaf-map.js" />
     <Content Include="map\markers.js" />
